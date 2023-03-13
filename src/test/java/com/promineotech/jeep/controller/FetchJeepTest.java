@@ -93,6 +93,10 @@ class FetchJeepTest  {
 				//@formatter:on
 				);
 	}
+	public Object getBaseUri() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	@Nested
 	@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 	@ActiveProfiles("test")
